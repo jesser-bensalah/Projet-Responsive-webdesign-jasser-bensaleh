@@ -1,0 +1,140 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+}
+
+
+#home {
+    height: 100vh;
+    background: url('img/man-holding-black-dumbbell-1229356.jpg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+}
+
+.jumbotron p {
+    font-size: 1.2rem;
+}
+
+
+#about {
+    padding: 2rem 1rem;
+    max-width: 900px;
+}
+
+
+#classes .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#classes .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #ccc;
+    font-size: 1.2rem;
+}
+
+footer a:hover {
+    color: #f8f9fa;
+}
+
+
+
+
+@media (max-width: 768px) {
+    #home {
+        padding: 2rem 1rem;
+        text-align: center;
+        height: auto;
+    }
+
+    .jumbotron h1 {
+        font-size: 2.5rem;
+    }
+
+    .jumbotron p {
+        font-size: 1rem;
+    }
+
+    #about {
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    #about h2 {
+        font-size: 2rem;
+    }
+
+    #classes .card {
+        margin-bottom: 1rem;
+    }
+
+    footer {
+        padding: 1rem 0;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    #home {
+        padding: 2rem 0;
+    }
+
+    .jumbotron h1 {
+        font-size: 2rem;
+    }
+
+    .jumbotron p {
+        font-size: 0.9rem;
+    }
+
+    #about p {
+        font-size: 0.9rem;
+    }
+
+    #classes h2 {
+        font-size: 1.8rem;
+    }
+
+
+    #classes .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+
+    footer {
+        font-size: 0.9rem;
+    }
+
+    footer a {
+        font-size: 1rem;
+    }
+}

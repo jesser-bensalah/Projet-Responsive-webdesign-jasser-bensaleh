@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardcore Gym</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+        <a class="navbar-brand font-weight-bold" href="#">Hardcore Gym</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">À propos de nous</a></li>
+                <li class="nav-item"><a class="nav-link" href="#classes">Cours</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.html">Déconnecter</a></li>
+            </ul>
+        </div>
+    </nav>
+
+   
+    <header id="home" class="jumbotron text-center bg-cover text-white d-flex align-items-center">
+        <div class="container">
+            <h1 class="display-3 font-weight-bold">Bienvenue chez  Hardcore Gym</h1>
+            <p class="lead">Transformez votre corps et votre esprit .</p>
+            <a href="options.html" class="btn btn-primary btn-lg mt-3">Explorer davantage</a>
+        </div>
+    </header>
+    
+
+    <section id="about" class="container my-5 py-4">
+        <h2 class="text-center font-weight-bold">À propos de nous</h2>
+        <p class="text-center mx-auto mt-3">Hardcore Gym, nous croyons en une approche globale du fitness. Nous offrons les derniers équipements, des conseils d'experts et une communauté accueillante pour tous les niveaux de forme physique. Laissez-nous vous aider à atteindre vos objectifs personnels !!</p>
+    </section>
+
+   
+    <section id="classes" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center font-weight-bold mb-4">Nos cours</h2>
+            <div class="row">
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="img/Yoga.jpg" style="height: 215px;" class="card-img-top" alt="Yoga Class">
+                        <div class="card-body">
+                            <h5 class="card-title">Yoga</h5>
+                            <p class="card-text">Retrouvez paix et équilibre grâce à nos séances de yoga.</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm">Apprendre encore plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="img/weight trainng.jpg"style="height: 215px; "class="card-img-top" alt="Weight Training Class">
+                        <div class="card-body">
+                            <h5 class="card-title">Musculation</h5>
+                            <p class="card-text">Renforcez et sculptez votre corps avec des cours de musculation personnalisés.</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm">Apprendre encore plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="img/cardio.jpg" style="height: 215px;"class="card-img-top" alt="Cardio Class">
+                        <div class="card-body">
+                            <h5 class="card-title">Cardio</h5>
+                            <p class="card-text">Boostez votre endurance et votre niveau d'énergie avec nos cours de cardio.</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm">Apprendre encore plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="container py-5">
+        <h2 class="text-center font-weight-bold">Contactez-nous</h2>
+        <form class="mx-auto mt-4" style="max-width: 600px;">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Nom</label>
+                    <input type="text" class="form-control" id="name" placeholder="votre Nom">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="votre Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Votre Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Soumettre</button>
+        </form>
+    </section>
+ 
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>&copy; 2024 Hardcore BY jesser. All rights reserved.</p>
+        <a href="#" class="text-light mx-2"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="text-light mx-2"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-light mx-2"><i class="fab fa-twitter"></i></a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
